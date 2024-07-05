@@ -1,5 +1,3 @@
-
-
 export default function Home() {
   return (
     <div className="hero-container">
@@ -9,7 +7,13 @@ export default function Home() {
             {' '}
             <img src="./images/logo.svg" alt="Permax Illustration" />
           </div>
-          <button>Launch App</button>
+          <a
+            href="https://permax-app.netlify.app"
+            target="_blank"
+            rel="noopener"
+          >
+            <button>Launch App</button>
+          </a>
         </div>
       </header>
       <main className="main">
@@ -21,7 +25,13 @@ export default function Home() {
             a versatile and robust trading environment.
           </p>
           <div className="cta">
-            <button>Launch App</button>
+            <a
+              href="https://permax-app.netlify.app"
+              target="_blank"
+              rel="noopener"
+            >
+              <button>Launch App</button>
+            </a>
             <button className="secondary">Learn More</button>
           </div>
         </div>
