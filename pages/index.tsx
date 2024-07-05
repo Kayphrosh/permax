@@ -1,7 +1,4 @@
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -10,24 +7,18 @@ export default function Home() {
         <div>
           <div className="logo">
             {' '}
-            <img
-              src="./images/logo.svg"
-              alt="Permax Illustration"
-            />
+            <img src="./images/logo.svg" alt="Permax Illustration" />
           </div>
           <button>Launch App</button>
         </div>
       </header>
       <main className="main">
         <div className="content">
-          <span>Built on Fracs</span>
-          <h1>
-            Perpetual futures strategies built on concentrated liquidity pools
-          </h1>
+          <span>Built on Fraxtal</span>
+          <h1>Perpetual Trading Platform with Multi-Collateral Support</h1>
           <p>
-            With intuitive interfaces and powerful tools, stay organised and in
-            control effortlessly. Experience seamless property management like
-            never before, tailored.
+            The Perpetual Trading Platform with Multi-Collateral Support offers
+            a versatile and robust trading environment.
           </p>
           <div className="cta">
             <button>Launch App</button>
